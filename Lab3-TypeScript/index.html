@@ -1,0 +1,28 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="in_radio">
+    <input type="radio" id="playerVsPlayer" name="gameMode" value="playerVsPlayer" checked>
+    <label for="playerVsPlayer">2 игрока</label>
+    <br>
+    <input type="radio" id="playerVsBot" name="gameMode" value="playerVsBot">
+    <label for="playerVsBot">Против компьютера</label>
+</div>
+
+<div class="spacer"></div>
+<button id="restartButton" class="button">Начать заново</button>
+<div class="spacer"></div>
+
+<div id="board"></div>
+
+<div class="spacer"></div>
+<div class="message" id="message"></div>
+
+<script src="script.ts"></script>
+</body>
+</html>
